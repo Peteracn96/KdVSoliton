@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ---------- parameters: must match blockMeshDict and the generator ----------
-case = "."
+case = "case"
 L, H = 40.0, 1.3          # domain length and height [m]
 nx, ny = 800, 130         # cells in x and y
 g, h, a0 = 9.81, 1.0, 0.1 # gravity, water depth, initial amplitude

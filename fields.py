@@ -33,7 +33,7 @@ header = lambda cls, obj: f"""FoamFile
 
 """
 
-with open("0/alpha.water", "w") as f:
+with open("case/0/alpha.water", "w") as f:
     f.write(header("volScalarField", "alpha.water"))
     f.write("dimensions      [0 0 0 0 0 0 0];\n\n")
     f.write(f"internalField   nonuniform List<scalar> {n}\n(\n")
@@ -50,7 +50,7 @@ with open("0/alpha.water", "w") as f:
 }
 """)
 
-with open("0/U", "w") as f:
+with open("case/0/U", "w") as f:
     f.write(header("volVectorField", "U"))
     f.write("dimensions      [0 1 -1 0 0 0 0];\n\n")
     f.write(f"internalField   nonuniform List<vector> {n}\n(\n")
