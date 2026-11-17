@@ -23,6 +23,7 @@ This tutorial consists of simulating the propagation of the soliton, a non-linea
   Encourage users to open new tabs for steps!
 -->
 
+![me](https://github.com/Peteracn96/KdVSoliton/soliton-moving.gif)
 
 <footer>
 
